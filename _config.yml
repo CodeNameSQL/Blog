@@ -14,16 +14,20 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Joshua Higginbotham's Blog
-email: jhigginbotham@prometheusconsulting.org
+author: Joshua Higginbotham
+email: 
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Hello and welcome to my Blog.  My name is Joshua and I'm just your average
+  tech nerd that likes to mess around with new things daily.  Posts will include
+  some of my successes and a good deal of my blunders.  Buckle up and enjoy the ride.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: codenamesql
 github_username:  jhiggin
 show_excerpts: true
+
+# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
+google_analytics: UA-133319055-1
 
 # Build settings
 markdown: kramdown
