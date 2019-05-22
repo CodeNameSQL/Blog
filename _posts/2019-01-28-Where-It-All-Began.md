@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: An Epic Quest Or Box Office Bust!
 ---
 
