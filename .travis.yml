@@ -1,8 +1,9 @@
 language: ruby
+sudo: true
 rvm:
   - 2.6.3
 jdk:
-  - oraclejdk9
+  - oraclejdk10
 
 branches:
   only:
