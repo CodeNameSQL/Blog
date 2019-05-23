@@ -6,4 +6,4 @@ branches:
     - master
 install: gem install jekyll -v 2.4.0 && gem install s3_website  && bundle install
 script: bundle exec jekyll build
-after_success: s3_website push 
+after_success: bundle exec s3_website push
