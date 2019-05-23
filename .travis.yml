@@ -2,7 +2,7 @@ language: ruby
 rvm:
   - 2.6.3
 jdk:
-  - oraclejdk8
+  - oraclejdk9
 
 branches:
   only:
