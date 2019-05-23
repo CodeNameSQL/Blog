@@ -7,9 +7,10 @@ branches:
     - master
 rvm:
  - 2.3.7
-
+ 
  deploy:
   provider: s3
   access_key_id: "AKIAJ4QG5ENQ3QUOVSOA"
   secret_access_key: "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"
   bucket: "blog-jhiggin-bucket"
+
