@@ -10,9 +10,9 @@
 #after_success: bundle exec s3_website push
 
 language: ruby
-sudo: false
+sudo: true
 rvm:
-- 2.1
+- 2.6.3
 cache: bundler
 install: bundle install
 script:
