@@ -1,6 +1,6 @@
 language: ruby
 cache: bundler
-gemfile: docs/Gemfile
+gemfile: Gemfile
 script:
   - s3_website push
 branches:
