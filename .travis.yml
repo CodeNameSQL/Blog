@@ -1,15 +1,19 @@
 language: ruby
+
 sudo: true
-dist: trusty
+
 rvm:
   - 2.6.3
+
+dist: trusty
+
 jdk:
   - oraclejdk8
 
 branches:
   only:
     - master
-install: gem install jekyll -v 2.4.0 && gem install s3_website  && bundle install
+install: gem install jekyll -v 2.4.0 && gem install s3_website && bundle install &&  bundle update
 script: bundle exec jekyll build
 after_success: bundle exec s3_website push
 
