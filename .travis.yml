@@ -13,7 +13,7 @@ jdk:
 branches:
   only:
     - master
-install: gem install jekyll -v 2.4.0 && gem install s3_website && bundle install && bundle update
+install: gem install jekyll -v 2.4.0 && gem install s3_website && gem install bundler:2.0.1 && bundle install && bundle update
 script: bundle exec jekyll build
 after_success: bundle exec s3_website push
 
