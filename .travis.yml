@@ -3,7 +3,7 @@ sudo: true
 rvm:
   - 2.6.3
 jdk:
-  - openjdk10
+  - oraclejdk8
 
 branches:
   only:
