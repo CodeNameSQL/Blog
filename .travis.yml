@@ -1,15 +1,15 @@
-#language: ruby
+language: ruby
 #cache: bundler
-#gemfile: Gemfile
-#branches:
-  #only:
+gemfile: Gemfile
+branches:
+  only:
     # Change this to gh-pages if you're deploying using the gh-pages branch
-    #- master
-#rvm:
- #- 2.3.7
+    - master
+rvm:
+ - 2.3.7
 
-  deploy:
-    provider: s3
-    access_key_id: "AKIAJ4QG5ENQ3QUOVSOA"
-    secret_access_key: "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"
-    bucket: "blog-jhiggin-bucket"
+ install: gem install jekyll -v 2.4.0 && gem install s3_website
+
+ script: jekyll build
+
+ after_success: s3_website push
