@@ -1,11 +1,15 @@
 language: ruby
 cache: bundler
 gemfile: Gemfile
-script:
-  - s3_website push
 branches:
   only:
     # Change this to gh-pages if you're deploying using the gh-pages branch
     - master
 rvm:
  - 2.3.7
+
+ deploy:
+  provider: s3
+  access_key_id: "AKIAJ4QG5ENQ3QUOVSOA"
+  secret_access_key: "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"
+  bucket: "blog-jhiggin-bucket"
