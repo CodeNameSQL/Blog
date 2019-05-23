@@ -1,6 +1,6 @@
 language: ruby
 rvm:
-  - 3.8.5
+  - 2.6.3
 
 branches:
   only:
