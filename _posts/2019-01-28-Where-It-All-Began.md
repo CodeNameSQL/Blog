@@ -2,6 +2,7 @@
 layout: single
 title: An Epic Quest Or Box Office Bust!
 comments: true
+author_profile: true
 ---
 
 So, you've decided that you want to enter into the glorious field of Database Administration.  You want to live, eat, and breath the SQL engine while slaying the monsters (Developers) that attempt to kill your system each and every day.  Well, I can say from experience that it doesn't come easily as one would think.  While I won't bore you with my life story, I will provide some of the things that have led to my success in my career.  

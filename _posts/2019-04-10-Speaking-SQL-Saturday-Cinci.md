@@ -2,6 +2,7 @@
 layout: single
 title: Recap of Speaking at SQLSaturday Cincinnati
 comments: true
+author_profile: true
 ---
 
 On March 30, 2019, I had the privilege to speak at my first SQLSaturday event in Cincinnati.  The topic I had chosen, I felt pretty good about.  I had presented it a handful of times to local groups and the feedback, for the most part, was always positive.  So I began the prep work needed to get ready.  I built out multiple redundancies within my plan.  Two laptops fully provisioned with the software needed to present the session,  multiple sets of adapters in case something went wrong or I showed up and the type input was different than I expected, and finally I uploaded everything to GitHub in case of major failure.  What I wasn't prepared for, was that when I entered into presentation mode from within PowerPoint, that it would fry the input on the project system.  Not once, but twice within two separate rooms.  
